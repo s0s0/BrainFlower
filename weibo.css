@@ -539,6 +539,17 @@ a.W_f14.W_fb.S_txt1{
 	font-size: 16px;
 }
 
+/*其他页面兼容性*/
 
+/*私信页面*/
+.private_dialogue_box .private_dialogue_body {
+	height: 700px;
+}
 
+.UI_scrollView {
+	height: 700px;
+}
 
+.webim_contacts_mod.S_bg2 {
+	margin-top: 130px;
+}
