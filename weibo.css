@@ -86,10 +86,6 @@ img.W_face_radius {
 	padding-left: 30px;
 }
 
-/*.S_line1+.S_line1 {
-	padding-left: 30px;
-}*/
-
 .user_atten li {
 	text-align: left;
 }
@@ -206,6 +202,11 @@ margin-right: 50px;
 	display: none;
 }
 
+/*移除各种 card*/
+.WB_feed_spec.S_bg2.S_line1 {
+	display: none;
+}
+
 /*移除各种背景*/
 .WB_frame {
 	background-color: transparent;
@@ -281,7 +282,7 @@ span.levtxt:hover {
 }
 
 .WB_feed_detail {
-	padding: 10px 0;
+	padding: 10px 0 0 0;
 }
 
 /*feed card title、背景*/
@@ -297,12 +298,13 @@ span.levtxt:hover {
 
 /*微博单条布局*/
 .WB_text.W_f14 {
-	margin-top: 10px;
+	margin-top: 14px;
 	position: relative;
 }
 
-.WB_feed_expand {
-	position: relative;
+/*微博图片区域修改*/
+.WB_media_wrap {
+	margin: 6px 0 8px -10px;
 }
 
 /*阅读进度*/
@@ -352,7 +354,8 @@ span.line.S_line1:hover {
 }
 
 .WB_row_r4 li {
-	width: 70px;
+	margin: 0 35px 0 0px;
+	width: auto;
 }
 
 .WB_feed_handle .WB_row_line {
