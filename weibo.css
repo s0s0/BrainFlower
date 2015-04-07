@@ -534,6 +534,11 @@ a.W_f14.W_fb.S_txt1{
 	font-size: 16px;
 }
 
+.W_gotop {
+	background-color: #CFD1D3;
+	border-radius: 4px;
+}
+
 /*其他页面兼容性*/
 
 /*私信页面*/
