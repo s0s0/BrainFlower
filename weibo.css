@@ -11,7 +11,7 @@ body {
 }
 
 /*播放器、私信聊天窗口、发送微博框下部广告、会员专区、右侧红包、发微博框顶部、热门话题介绍、热门搜索、首页更新圆点、微博转发聚合、右侧模块的更多、右侧广告*/
-.PCD_mplayer, .PCD_nodelayer, #WB_webim, #v6_pl_content_biztips, #v6_trustPagelet_recom_member, #v6_pl_rightmod_hongbaoentrance, .title_area, a.W_icon.icon_setskin, .WB_right_expand, .gn_topmenulist_search, .W_new, a.W_ficon.ficon_more.S_ficon, .WB_feed_together,.WB_search_s .pos, a.WB_cardmore.S_txt1.S_line1, div[id^="v6_pl_rightmod_ads"], div[feedtype=ad], div[id^="v6_pl_rightmod_noticeboard"], div[id^="v6_pl_rightmod_recomfriends"], div#Pl_Core_Pt6Rank__6, div#Pl_Card_ParentNodev6__5 {
+.PCD_mplayer, .PCD_nodelayer, #WB_webim, #v6_pl_content_biztips, #v6_trustPagelet_recom_member, #v6_pl_rightmod_hongbaoentrance, .title_area, a.W_icon.icon_setskin, .WB_right_expand, .gn_topmenulist_search, .W_new, a.W_ficon.ficon_more.S_ficon, .WB_feed_together,.WB_search_s .pos, a.WB_cardmore.S_txt1.S_line1, div[id^="v6_pl_rightmod_ads"], div[feedtype=ad], div[id^="v6_pl_rightmod_noticeboard"], div[id^="v6_pl_rightmod_recomfriends"], div#Pl_Core_Pt6Rank__6, div#Pl_Card_ParentNodev6__5, div#Pl_Official_CardMixFeedv6__4 {
 	display: none;
 }
 
@@ -580,4 +580,8 @@ p {
 .PCD_longwb_content .info {
 	font-size: 13px;
 	color: #999;
+}
+
+div#Pl_Core_Pt6Rank__7 {
+  display: none;
 }
