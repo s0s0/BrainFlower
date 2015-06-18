@@ -16,7 +16,7 @@ body {
 }
 
 /*右侧广告、排行榜、电影榜*/
-div#v6_pl_rightmod_recominfo > div:nth-child(4), div#v6_pl_rightmod_recominfo > div:nth-child(5), div#v6_pl_rightmod_recominfo > div:nth-child(6), div#v6_pl_rightmod_recominfo > div:nth-child(7) {
+div#v6_pl_rightmod_recominfo > div:nth-child(1), div#v6_pl_rightmod_recominfo > div:nth-child(5), div#v6_pl_rightmod_recominfo > div:nth-child(6), div#v6_pl_rightmod_recominfo > div:nth-child(7) {
 	display: none;
 }
 
@@ -456,6 +456,7 @@ div#v6_pl_content_homefeed {
 	border-radius: 4px;
 	padding: 0;
 	height: 156px;
+	background: none;
 }
 
 .send_weibo .input{
